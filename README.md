@@ -10,7 +10,7 @@ You can simply fork and clone (or download) the repo into your local directory:
   $ git clone https://github.com/FarhadG/bootstrap-swig-stylus-gulp-boilerplate.git
   $ cd bootstrap-swig-stylus-gulp-boilerplate
   $ npm install
-  $ gulp
+  $ npm start
 ```
 
 ## Usage
