@@ -1,14 +1,14 @@
-## Bootstrap Jade Stylus Gulp Boilerplate
+## Bootstrap Gulp Stylus Gulp Boilerplate
 
-A minimal seed comprising of Bootstrap, Jade, Stylus, Gulp and some basic imports, like Google Webfonts, FontAwesome, etc. It has a set of configurations setup for the source and destinations paths, server port, livereloading, etc. You can leave them as they are or modify them inside of the `gulpfile.js`.
+A minimal seed comprising of Bootstrap, Gulp, Stylus, Gulp and some basic imports, like Google Webfonts, FontAwesome, etc. It has a set of configurations setup for the source and destinations paths, server port, livereloading, etc. You can leave them as they are or modify them inside of the `gulpfile.js`.
 
 ## Installation
 
 You can simply fork and clone (or download) the repo into your local directory:
 
 ```
-  $ git clone https://github.com/FarhadG/bootstrap-jade-stylus-gulp-boilerplate.git
-  $ cd bootstrap-jade-stylus-gulp-boilerplate
+  $ git clone https://github.com/FarhadG/bootstrap-gulp-stylus-gulp-boilerplate.git
+  $ cd bootstrap-gulp-stylus-gulp-boilerplate
   $ npm install
   $ gulp
 ```
