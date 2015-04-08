@@ -6,6 +6,7 @@ var log = require('gulp-util').log;
 var rename = require('gulp-rename');
 var swig = require('gulp-swig');
 var stylus = require('gulp-stylus');
+var nib = require('nib');
 var plumber = require('gulp-plumber');
 var data = require('gulp-data');
 var webserver = require('gulp-webserver');
@@ -30,7 +31,7 @@ var config = {
         destination: 'dist/css'
     },
     js: {
-        src: './src/js/**',
+        src: './src/js/**/**',
         destination: 'dist/js'
     }
 };
@@ -73,7 +74,7 @@ gulp.task('templates', function() {
 gulp.task('styles', function() {
    gulp.src(config.css.src)
        .pipe(plumber())
-       .pipe(stylus())
+       .pipe(stylus({ use: nib() }))
        .pipe(rename('style.css'))
        .pipe(gulp.dest(config.css.destination));
 });
